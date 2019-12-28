@@ -1,0 +1,10 @@
+#! /bin/sh
+
+echo "Creating and installing sshkey for all cluster hosts to login with no password"
+echo "Press Enter when asked and enter password when asked"
+echo
+
+ssh-keygen
+# replace for correct number of hosts and correct IPs or hostnames
+ssh-copy-id -i ~/.ssh/id_rsa root@10.10.2.136
+ssh-copy-id -i ~/.ssh/id_rsa root@10.10.2.137
