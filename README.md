@@ -1,2 +1,2 @@
 # nirm
-# everything for confuguring my clusters
+# everything for configuring my clusters
