@@ -1,2 +1,2 @@
 # nirm
-# everything for configuring my clusters
+Somw scripts to configure Kubernetes cluster
